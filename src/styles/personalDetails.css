@@ -1,0 +1,384 @@
+/* Personal Details Styles */
+form-details-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-details-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f9fafa;
+} 
+
+.form-details-headers {
+    width: 100%;
+    height: 40px;
+    background-color: #274765;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #274765;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    color: #8f9faf;
+}
+
+.header-button:focus {
+    background-color: #ff6300;
+    color: white;
+}
+
+.header-personal-details {
+    padding-left: 7px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #8f9faf;
+}
+
+header-personal-details:hover {
+    color: white;
+}
+
+.form-company-details {
+    padding-left: 100px;
+}
+
+.form-Email-details {
+    padding-left: 100px;
+}
+
+.personal-details-wrapper {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-details-heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.personal-details-sub-heading {
+    padding-top: 10px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #525151;
+}
+
+.personal-details-name {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #7e7e7e;
+    padding-bottom: 5px;
+}
+
+.name-input {
+    width: 320px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.name-input:focus {
+    outline: none !important;
+    border: 1px solid #ff6300;
+}
+
+.personal-details-gender {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gender-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #7e7e7e;
+}
+
+.personal-details-gender-label {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.personal-details-gender-male-focus {
+    width: 96px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #ffeee5;
+    color: #ff6300;
+}
+
+.male-label-focus {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.personal-details-gender-male {
+    width: 96px;
+    height: 25px;
+    border: 1px solid #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.male-label {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.personal-details-gender-female-focus {
+    width: 96px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #ffeee5;
+    color: #ff6300;
+}
+
+.female-label-focus {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.personal-details-gender-female {
+    margin-left: 13px;
+    width: 96px;
+    height: 25px;
+    border: 1px solid #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.female-label {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.personal-details-gender-other-focus {
+    width: 96px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #ffeee5;
+    color: #ff6300;
+}
+
+.other-label-focus {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.personal-details-gender-other {
+    margin-left: 13px;
+    width: 96px;
+    height: 25px;
+    border: 1px solid #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-label {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.personal-details-country {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.country-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #7e7e7e;
+    padding-bottom: 5px;
+}
+
+.personal-details-country-select {
+    width: 320px;
+    height: 30px;
+    border: 1px solid lightgray;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.personal-details-country-select:hover{
+    outline: none !important;
+    border: 1px solid #ff6300;
+}
+
+.country-select {
+    width: 300px;
+    height: 20px;
+    padding-left: 10px;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.country-select:focus {
+    outline: 0;
+}
+
+.country-select-option {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.personal-details-state {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.state-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #7e7e7e;
+    padding-bottom: 5px;
+}
+
+.state-select {
+    width: 320px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.state-select:focus {
+    border: 1px solid #ff6300;
+}
+
+.state-select-option {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.personal-details-phone {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #7e7e7e;
+    padding-bottom: 5px;
+}
+
+.phone-number {
+    width: 320px;
+    height: 30px;
+    border: 1px solid lightgray;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.phone-number:hover {
+    border: 1px solid #ff6300;
+}
+
+.phone-number-flagicon {
+    width: 15px;
+    height: 15px;
+}
+
+.phone-number-code {
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.phone-number-input {
+    width: 250px;
+    height: 20px;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.phone-number-input:focus {
+    outline: none;
+}
+
+.personal-details-button {
+    padding-top: 20px;
+}
+
+.next-button-enabled {
+    width: 320px;
+    height: 30px;
+    border: none;
+    background-color: #ff6300;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
+
+.next-button {
+    width: 320px;
+    height: 30px;
+    border: none;
+    background-color: #ffceaf;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
+
+.personal-details-account {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #7e7e7e;
+}
+
+.login-label {
+    padding-left: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #ff6300;
+}
